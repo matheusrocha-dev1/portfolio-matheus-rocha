@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Matheus Rodrigues Rocha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ====== Menu de Navegação ====== -->
+  <header>
+    <nav>
+      <h1>Matheus Rodrigues Rocha</h1>
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="btnTema">🌙</button>
+    </nav>
+  </header>
+
+  <!-- ====== Seção Sobre ====== -->
+  <section id="sobre" class="secao">
+    <h2>Sobre mim</h2>
+    <p>Olá! Meu nome é <strong>Matheus Rodrigues Rocha</strong>, sou estudante de <strong>Engenharia de Software</strong> e apaixonado por tecnologia, inovação e aprendizado constante. Gosto de explorar novas linguagens de programação, resolver problemas e criar soluções práticas.</p>
+    <p>Nos meus momentos livres, gosto de andar de moto, treinar na academia, jogar e estudar programação.</p>
+  </section>
+
+  <!-- ====== Seção Formação ====== -->
+  <section id="formacao" class="secao">
+    <h2>Formação</h2>
+    <ul>
+      <li><strong>Engenharia de Software</strong> – em andamento</li>
+      <li><strong>Python – Curso em Vídeo</strong> (2024)</li>
+      <li><strong>Maratona Java – DevDojo</strong> (2025)</li>
+      <li><strong>Idiomas:</strong> Português (nativo), Inglês (intermediário)</li>
+    </ul>
+  </section>
+
+  <!-- ====== Seção Portfólio ====== -->
+  <section id="portfolio" class="secao">
+    <h2>Portfólio</h2>
+    <div class="projetos">
+      <div class="card">
+        <h3>Projeto 1 – Calculadora em JavaScript</h3>
+        <p>Aplicação simples para praticar lógica de programação e DOM.</p>
+        <a href="#" target="_blank">Ver projeto</a>
+      </div>
+      <div class="card">
+        <h3>Projeto 2 – Site Responsivo</h3>
+        <p>Layout feito com HTML5 e CSS3, adaptado para dispositivos móveis.</p>
+        <a href="#" target="_blank">Ver projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Seção Contato ====== -->
+  <section id="contato" class="secao">
+    <h2>Contato</h2>
+    <form id="formContato" onsubmit="return validarFormulario()">
+      <input type="text" id="nome" placeholder="Seu nome">
+      <input type="email" id="email" placeholder="Seu e-mail">
+      <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- ====== Rodapé ====== -->
+  <footer>
+    <p>© 2025 - Desenvolvido por Matheus Rodrigues Rocha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
